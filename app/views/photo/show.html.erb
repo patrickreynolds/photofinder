@@ -1,0 +1,10 @@
+<div class="container">
+	<% @finalListOfImageLinks.each do |link| %>
+	<div class="panel panel-default">
+		<div class="panel-heading"><b>Image Link:</b> <%= link %></div>
+		<div class="photo-container">
+			<a href="<%= link %>"><img src="<%= link %>"></a>
+		</div>
+	</div>
+	<% end %>
+</div>
