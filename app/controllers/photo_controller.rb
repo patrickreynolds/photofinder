@@ -55,6 +55,6 @@ class PhotoController < ApplicationController
 
 	@convertedImageTags = convertElementsToString(@imageTags)
 	@finalListOfImageLinks = stripImageTags(@url, @convertedImageTags) # Recieving an array of full http:// url links to images
-
+	@counter = 1
   end
 end
